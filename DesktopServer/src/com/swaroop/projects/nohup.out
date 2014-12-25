@@ -1,0 +1,13 @@
+Listening on port  8686
+Listening on port  8686
+java.net.BindException: Die Adresse wird bereits verwendet
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at JavaDesktopClipboardAccessServer$ServerThread.run(JavaDesktopClipboardAccessServer.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-0" java.lang.NullPointerException
+	at JavaDesktopClipboardAccessServer$ServerThread.run(JavaDesktopClipboardAccessServer.java:118)
+	at java.lang.Thread.run(Thread.java:745)
